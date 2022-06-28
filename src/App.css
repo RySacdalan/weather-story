@@ -30,3 +30,11 @@ body{
   width: 70%;
   margin: 0 auto;
 }
+
+/*For header only*/
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+ }
