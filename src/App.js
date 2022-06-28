@@ -1,9 +1,10 @@
 import "./App.css";
+import MainHeader from "./layout/MainHeader";
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <MainHeader />
     </div>
   );
 }
