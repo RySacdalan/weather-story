@@ -6,12 +6,15 @@ const Weather = (props) => {
     <div className='weather_wrapper'>
       <div className='weather_content'>
         <div className="weather_primary_details">
-            <h1 className='weather_temp'>16deg</h1>
-            <p className='weather_description'>light rain</p>
-            <div className='weather_location'>
-                <h3>Manila</h3>
-                <p>PH</p>
-                <p>12:30PM</p>
+            <div className='primary_wrapper'>
+                <div className='primary_content'>
+                    <h1 className='weather_temp'>16deg</h1>
+                    <p className='weather_description'>light rain</p>
+                </div>
+                <div className='weather_location'>
+                    <p className='weather_city'>Manila, PH.</p>
+                    <p className='weather_time'>12:30PM</p>
+                </div>
             </div>
         </div>
         <div className="weather_secondary_details">

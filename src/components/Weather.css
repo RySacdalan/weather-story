@@ -1,0 +1,38 @@
+.weather_content{
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+}
+.weather_primary_details{
+ display: flex;
+ align-items: flex-end;
+ justify-items: left;
+ background-color: rgba(225, 225, 225, 0.5);
+}
+.primary_wrapper{
+ display: flex;
+ flex-direction: column;
+ margin-top: 300px;
+ padding: 2rem;
+}
+.weather_temp{
+ font-size: 3.25rem;
+ margin-bottom: 0;
+ padding-bottom: 0;
+}
+.weather_description{
+ font-size: 2rem;
+}
+.weather_location{
+ display: flex;
+ align-items:center;
+}
+.weather_time{
+ margin-left: 8px;
+}
+
+/*Right side*/
+.weather_secondary_details{
+ display: flex;
+ flex-direction: column;
+ background: #282A36;
+}
