@@ -4,7 +4,9 @@ import MainHeader from "./layout/MainHeader";
 function App() {
   return (
     <div className="App">
-      <MainHeader />
+      <div className="main_app_content">
+        <MainHeader />
+      </div>
     </div>
   );
 }
