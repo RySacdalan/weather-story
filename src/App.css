@@ -68,14 +68,26 @@ body{
   margin-bottom: 0;
   padding-bottom: 0;
  }
+ .weather_main{
+  font-size: 3rem;
+  font-weight: bold;
+ }
  .weather_description{
-  transform: rotate(270deg);
-  font-size: 2.25rem;
-  margin-right: -70px;
+  font-size: 1.2rem;
+  margin-top: -5px;
+  margin-bottom: 5px
  }
  .weather_location{
   display: flex;
-  align-items:center;
+  align-items:flex-start;
+  flex-direction: column;
+ }
+ .city_and_time{
+  display: flex;
+  flex-direction: row;
+ }
+ .weather_main{
+  display: block;
  }
  .weather_time{
   margin-left: 8px;
@@ -104,7 +116,7 @@ body{
 }
 .first-section p, .second-section p{
   font-size: 14px;
-  font-weight: 100;
+  font-weight: bold;
   margin: 1rem 0;
 }
 .main-details, .wind-details{
